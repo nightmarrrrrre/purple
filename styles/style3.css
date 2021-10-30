@@ -78,7 +78,18 @@ h1 {
 .pacoca-container {
   background-color: #000020;
   border-radius: 12px;
-  margin: 15px 15px 0px 15px;
+  padding: 1px;
+  margin: 15px 15px 15px 15px;
+}
+
+.visited:visited {
+  color: #05d8e8;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .pacoca {
@@ -107,6 +118,7 @@ h1 {
 
 .rab {
   margin-right: 10px;
+  position: relative;
 }
 
 button {
@@ -126,7 +138,7 @@ button {
   justify-content: space-between;
   background-color: #131225;
   border-radius: 12px;
-  margin: 5px 15px 0px 15px;
+
   padding-top: 20px;
 }
 
@@ -141,6 +153,19 @@ button {
   margin-right: 40px;
 }
 
+.small2 {
+  font-size: 12px;
+  opacity: 50%;
+  text-align: left;
+}
+
+.small3 {
+  font-size: 12px;
+  opacity: 50%;
+  text-align: left;
+  margin-right: 40px;
+}
+
 .small {
   margin-right: 90px;
   font-size: 12px;
@@ -148,10 +173,45 @@ button {
 }
 
 .back {
-  background-color: #272637;
-  border-radius: 12px;
-  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.grey {
+  background-color: #272637;
+  border-radius: 12px;
+  margin: 5px 15px 15px 15px;
+}
+
+.info {
+  margin: 10px;
+}
+
+.container-hover {
+  background-color: #131225;
+  border-radius: 12px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: absolute;
+  display: none;
+}
+
+.hover:hover {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opacity {
+  font-size: 12px;
+}
+
+.align {
+  margin-left: 115px;
 }
