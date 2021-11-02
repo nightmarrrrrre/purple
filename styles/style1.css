@@ -7,6 +7,10 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+.visited:visited {
+  color: #05d8e8;
+}
+
 a,
 a:visited {
   color: white;
