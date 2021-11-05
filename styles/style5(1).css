@@ -95,8 +95,9 @@ a {
   font-size: 16px;
 }
 
-.another1 {
+.another1:visited {
   color: #05d8e8;
+  text-decoration: none;
 }
 
 .visited:visited {
@@ -141,6 +142,7 @@ label {
   border: 1px solid #000020;
   margin-left: 10px;
   font-size: 20px;
+  color: white;
   width: 375px;
   font-weight: 700;
 }
