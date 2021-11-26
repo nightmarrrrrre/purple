@@ -75,43 +75,11 @@ h1 {
   opacity: 100%;
 }
 
-aside {
-  text-align: start;
-  margin-left: 15px;
-  opacity: 50%;
-}
-
-.features {
-  font-size: 12px;
-  font-weight: 500;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.another {
-  font-size: 16px;
-}
-
-.another1:visited {
-  color: #05d8e8;
-  text-decoration: none;
-}
-
 .visited:visited {
   color: #05d8e8;
 }
 
-.aside {
-  display: flex;
-  margin-top: 10px;
-}
 
-img {
-  margin: 10px 0px 0px 20px;
-}
 
 .container {
   display: flex;
